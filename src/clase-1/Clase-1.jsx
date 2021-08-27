@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import { ChallengeUno } from "./Challenge-1";
 
 export const ClaseUno = () => {
 // ESTADOS GLOBALES DE VALIDACION
@@ -56,7 +56,7 @@ export const ClaseUno = () => {
   return (
     <>
       <h1>Clase 1</h1>
-      
+      <div><ChallengeUno/></div>
       <input
         onChange={handleChange}
         value={input}
