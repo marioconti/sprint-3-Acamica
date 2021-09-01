@@ -3,32 +3,59 @@
   text-align: center;
   display: flex;
 }
-
+/* ================================================== */
 .header {
   padding: 60px;
-  background-color: lightcoral;
-  height: 100vh;
+  background-color: rgb(130, 128, 240);
+  height: auto;
 }
-.seccion {
-  padding: 60px;
-  height: 200px;
-  background-color: khaki;
-  /* esta propiedad flex: 1, hace que el elemento complete la parte en blanco del contenedor
-  probar que pasa sacandolo para ver como funciona*/
-  /* en este caso completa todo la seccion hacia abajo */
-  flex: 1;
-  width: 100%;
-}
-.footer {
-  padding: 60px;
-  height: 50px;
-  background-color: lightblue;
-  width: 100%;
-}
-
+/* ================================================== */
 .seccion-columna {
   display: flex;
   flex-direction: column;
   /* en este caso el flex 1 completa todo a la derecha */
   flex: 1;
+}
+/* ================================================== */
+
+.seccion {
+  width: 100%;
+  height: 200px;
+  padding: 60px;
+  background-color: rgb(140, 240, 170);
+  flex: 1;
+  /* esta propiedad flex: 1, hace que el elemento complete la parte en blanco del contenedor
+  probar que pasa sacandolo para ver como funciona*/
+  /* en este caso completa todo la seccion hacia abajo */
+  
+}
+.seccion-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 220px;
+  margin: 40px 10px;
+  border: 1px rgb(177, 177, 177) solid;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+.imagen {
+  width: 140px;
+  height: auto;
+}
+/* ================================================== */
+.footer {
+  padding: 60px;
+  height: 50px;
+  background-color: rgb(93, 204, 241);
+  width: 100%;
 }
