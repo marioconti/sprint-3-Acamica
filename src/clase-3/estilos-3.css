@@ -1,0 +1,34 @@
+.contenedor-principal {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.header {
+  padding: 60px;
+  background-color: lightcoral;
+  height: 100vh;
+}
+.seccion {
+  padding: 60px;
+  height: 200px;
+  background-color: khaki;
+  /* esta propiedad flex: 1, hace que el elemento complete la parte en blanco del contenedor
+  probar que pasa sacandolo para ver como funciona*/
+  /* en este caso completa todo la seccion hacia abajo */
+  flex: 1;
+  width: 100%;
+}
+.footer {
+  padding: 60px;
+  height: 50px;
+  background-color: lightblue;
+  width: 100%;
+}
+
+.seccion-columna {
+  display: flex;
+  flex-direction: column;
+  /* en este caso el flex 1 completa todo a la derecha */
+  flex: 1;
+}
