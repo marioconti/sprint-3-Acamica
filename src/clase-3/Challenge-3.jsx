@@ -12,7 +12,8 @@ const arrayImagenes = [
     imagen: "./images/hoja3.jpg",
   },
   {
-    imagen: "./images/hoja4.jpg",
+    imagen: 
+    "./images/hoja4.jpg",
   },
   {
     imagen: "./images/hoja5.jpg",
@@ -61,11 +62,7 @@ const Seccion = () => {
       <h1>Secciónn</h1>
       <h2>Subtitulo</h2>
       <div className="seccion-galeria">
-        <Card imgSrc={arrayImagenes[0].imagen} />
-        <Card imgSrc={arrayImagenes[1].imagen} />
-        <Card imgSrc={arrayImagenes[2].imagen} />
-        <Card imgSrc={arrayImagenes} />
-        <Card imgSrc={arrayImagenes[4].imagen} />
+        <ListadoCards />
       </div>
     </div>
   );
@@ -81,21 +78,34 @@ const Footer = () => {
   );
 };
 //==================================================
-// CARD
-// FIXME: arreglar la logica para q no muestre nada cuando no está la imagen o cuando no se encuentra la imagen
+// RENDERIZACION DINAMICA DE LA CARD
+
+const ListadoCards = () => {
+  const listaDeCards = arrayImagenes.map((imagenPlanta) => {
+    return <Card imagenPlanta={imagenPlanta.imagen} />;
+  });
+  return listaDeCards;
+};
+//==================================================
+// CARD imagen
 const Card = (props) => {
   return (
     <div className="contenedor-Card">
       {/* sin mensaje de error */}
-      {/* {props.imgSrc && (
-        <img className="imagen" src={props.imgSrc} alt="imagen renderizada" />
+      {/* {props.imagenPlanta && (
+        <img className="imagen" src={props.imagenPlanta} alt="imagen renderizada" />
       )} */}
 
-      {!props.imgSrc ? (
+      {!props.imagenPlanta ? (
         <h2>No se encontró la imagen</h2>
       ) : (
-        <img className="imagen" src={props.imgSrc} alt="imagen renderizada" />
+        <img
+          className="imagen"
+          src={props.imagenPlanta}
+          alt="imagen renderizada"
+        />
       )}
     </div>
   );
 };
+//==================================================

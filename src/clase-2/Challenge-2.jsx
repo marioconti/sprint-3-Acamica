@@ -9,7 +9,7 @@ fetch("https://jsonplaceholder.typicode.com/albums/1/photos")
 
   return (
     <>
-      <h1>Challenge clase 2</h1>
+      <h1>Challenge clase 4</h1>
     </>
   );
 };
