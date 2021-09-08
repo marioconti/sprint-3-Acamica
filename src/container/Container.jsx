@@ -5,7 +5,8 @@ import React from "react";
 // import { ClaseDos } from "../clase-2/Clase-2";
 // import { ChallengeClaseTres } from "../clase-3/Challenge-3";
 // import { ClaseTres } from "../clase-3/clase-3";
-import { ChallengeClaseCuatro } from "../clase-4/Challenge-4";
+// import { ChallengeClaseCuatro } from "../clase-4/Challenge-4";
+import { ChallengeClaseCinco } from "../clase-5/Challenge-5";
 
 export const Container = () => {
   return (
@@ -15,7 +16,8 @@ export const Container = () => {
       {/* <ClaseDos /> */}
       {/* <ChallengeClaseTres/> */}
       {/* <ClaseTres/> */}
-      <ChallengeClaseCuatro />
+      {/* <ChallengeClaseCuatro /> */}
+      <ChallengeClaseCinco />
     </>
   );
 };

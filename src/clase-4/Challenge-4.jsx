@@ -42,7 +42,7 @@ const Pizza = (props) => {
     if (props.salsa === true) {
       condimentos.push("pizza-ConSalsa");
     }
-    let tiposDeCondimentos = condimentos.join("");
+    let tiposDeCondimentos = condimentos.join(" ");
     return tiposDeCondimentos;
   };
   return <div className={`${Condimentos()}`} />;

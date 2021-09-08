@@ -1,0 +1,41 @@
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-contador {
+  margin: 40px 0;
+}
+
+.Counter {
+  height: 300px;
+  border: 5px solid #572ee5;
+  font-weight: 700;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: #474747;
+  border: 3px solid #572ee5;
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+button:active {
+  background-color: #969595;
+}
+
+.count {
+  font-size: 3rem;
+  text-align: center;
+}
