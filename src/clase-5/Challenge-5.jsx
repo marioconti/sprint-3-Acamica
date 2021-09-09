@@ -17,6 +17,13 @@ Esto último es importante, si cambia algo en el efecto, es decir en la fx, ahi 
 export const ChallengeClaseCinco = () => {
   const [mostrar, actualizarMostrar] = useState(true);
   const [contador, setContador] = useState(0);
+  const [oldCounter, setOldCounter] = useState({ ...contador });
+
+  useEffect(() => {
+    if (oldCounter > contador) {
+      console.log("El valor ha aumentado");
+    }
+  }, [contador]);
 
   return (
     <>
@@ -29,7 +36,11 @@ export const ChallengeClaseCinco = () => {
           {mostrar ? "OCULTAR" : "MOSTRAR"}
         </button>
         {mostrar === true ? (
-          <Counter contador={contador} setContador={setContador} />
+          <Counter
+            contador={contador}
+            setContador={setContador}
+            oldCounter={oldCounter}
+          />
         ) : (
           "PRESIONA EL BOTON PARA VER EL CONTADOR"
         )}
@@ -39,23 +50,17 @@ export const ChallengeClaseCinco = () => {
   );
 };
 
-const Counter = (props) => {
+export const Counter = (props) => {
   const incrementar = () => {
     props.setContador(props.contador + 1);
   };
-
   const disminuir = () => {
     props.setContador(props.contador - 1);
   };
-
   const reset = () => {
     props.setContador(0);
   };
 
-React.useEffect(()=>{
-    console.log(``)
-})
-// AQUI FALTA HACER LA PALTE DE LA LOGICA DEL USEEFFECT (COMO HACER QUE SE MUESTRE UNA VEZ?)
   return (
     <main className="Application">
       <section className="Counters">
