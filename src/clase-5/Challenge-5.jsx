@@ -17,18 +17,19 @@ Esto último es importante, si cambia algo en el efecto, es decir en la fx, ahi 
 export const ChallengeClaseCinco = () => {
   const [mostrar, actualizarMostrar] = useState(true);
   const [contador, setContador] = useState(0);
-  const [oldCounter, setOldCounter] = useState({ ...contador });
+  const [oldCounter, setOldCounter] = useState(contador);
 
   useEffect(() => {
-    if (oldCounter > contador) {
-      console.log("El valor ha aumentado");
+    if (mostrar === false) {
+      console.error("El componente Counter no se encuentra montando");
+      console.info("Presiona mostrar para ver nuevamente el componente");
     }
-  }, [contador]);
+  }, [mostrar]);
 
   return (
     <>
       <div className="contenedor-principal">
-        <h1>Challenge clase 4</h1>
+        <h1>Challenge clase 5 - Mario Conti</h1>
         <button
           className="btn-contador"
           onClick={() => actualizarMostrar(!mostrar)}
@@ -42,9 +43,8 @@ export const ChallengeClaseCinco = () => {
             oldCounter={oldCounter}
           />
         ) : (
-          "PRESIONA EL BOTON PARA VER EL CONTADOR"
+          <p>PRESIONA EL BOTON PARA VER EL CONTADOR</p>
         )}
-        {/* Como puedo dar estilo a este if? trate haciendo una variable p que llame ahi pero no pude */}
       </div>
     </>
   );
@@ -60,6 +60,22 @@ export const Counter = (props) => {
   const reset = () => {
     props.setContador(0);
   };
+
+  useEffect(() => {
+    if (props.contador > props.oldCounter) {
+      console.log("El valor ha aumentado");
+      console.log(
+        `Valor del contador actualizado ${props.contador} y el viejo ${props.oldCounter}`
+      );
+    } else if (props.contador < props.oldCounter) {
+      console.log("El valor ha disminuido");
+      console.log(
+        `Valor del contador actualizado ${props.contador} y el viejo ${props.oldCounter}`
+      );
+    } else if (props.contador === 0) {
+      console.log("El valor actual es cero");
+    }
+  }, [props.oldCounter, props.contador]);
 
   return (
     <main className="Application">

@@ -9,3 +9,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/* Archivo de la fuente en src, en el app.css */
+/* fuente importada de dafont */
+@font-face {
+  font-family: blanka;
+  src: url(/src/BLANKA/Blanka-Regular.otf);
+}
