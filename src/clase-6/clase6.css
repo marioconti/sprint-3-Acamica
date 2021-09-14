@@ -1,0 +1,14 @@
+.Claseseis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  flex-direction: column;
+}
+
+.post {
+  background-color: lightblue;
+  padding: 10px 0;
+  border-radius: 20px;
+}

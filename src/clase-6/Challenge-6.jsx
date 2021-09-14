@@ -90,3 +90,8 @@ function Persona(props) {
   );
   // return <></>;
 }
+
+// Cree un estado para el botón, que comienza en false
+// Como resolví el challenge 6: hice un condicional en el useEffect que mostrar esta en true (mostrar es el boton) realice la petición y haga el set del array de users. Si está en false que lo reinicie.
+// Luego en el boton hice una función que cambie de estado entre mostrando y oculto. Si la lista es mayor a 0 que muestre lo que hay. Si es igual a 0 no pasará nada
+// FIXME: queda pendiete para ver el tema de que aparezca loading si es que al apretar el botón se esta cargando la lista
