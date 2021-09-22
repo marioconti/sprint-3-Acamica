@@ -8,7 +8,9 @@ import React from "react";
 // import { ChallengeClaseCuatro } from "../clase-4/Challenge-4";
 // import { ChallengeClaseCinco } from "../clase-5/Challenge-5";
 // import { ChallengeSeis } from "../clase-6/Challenge-6";
-import { ClaseSeis } from "../clase-6/ClaseSeis";
+// import { ClaseSeis } from "../clase-6/ClaseSeis";
+// import { ToolboxClaseOcho } from "../clase-8/toolbox-8";
+import { ChallengeClaseOcho } from "../clase-8/challenge-8";
 
 export const Container = () => {
   return (
@@ -21,7 +23,9 @@ export const Container = () => {
       {/* <ChallengeClaseCuatro /> */}
       {/* <ChallengeClaseCinco /> */}
       {/* <ChallengeSeis /> */}
-      <ClaseSeis />
+      {/* <ClaseSeis /> */}
+      {/* <ToolboxClaseOcho /> */}
+      <ChallengeClaseOcho />
     </>
   );
 };
