@@ -7,7 +7,7 @@ PRIMERA PARTE
 ==============================================
 */
 
-export const ToolboxClaseOcho = () => {
+export const ToolboxClaseNueve = () => {
   return (
     <>
       <Route exact path="/">

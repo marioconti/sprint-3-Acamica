@@ -1,7 +1,7 @@
 import React from "react";
 import { Navegacion } from "./navegacion";
 import { Principal } from "./principal";
-import "./practica8.css"
+import "./practica9.css"
 
 export const Main = () => {
   return (

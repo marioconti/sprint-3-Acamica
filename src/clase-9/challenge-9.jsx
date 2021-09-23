@@ -1,8 +1,8 @@
 import React from "react";
-import "./challenge-8.css";
+import "./challenge-9.css";
 import { Route, Link } from "react-router-dom";
 
-export const ChallengeClaseOcho = () => {
+export const ChallengeClaseNueve = () => {
   return (
     <>
       {/* con path declaro el nombre de la ruta y luego eso ponemos en el link? */}
