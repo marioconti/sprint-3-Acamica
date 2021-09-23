@@ -1,0 +1,17 @@
+.section-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(167, 103, 226);
+  text-decoration: initial;
+  /* FIXME:porque no se saca los estilos del link? */
+  text-decoration: none;
+}

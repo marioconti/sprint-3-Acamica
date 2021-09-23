@@ -10,8 +10,8 @@ import React from "react";
 // import { ChallengeSeis } from "../clase-6/Challenge-6";
 // import { ClaseSeis } from "../clase-6/ClaseSeis";
 // import { ToolboxClaseOcho } from "../clase-8/toolbox-8";
-import { ChallengeClaseOcho } from "../clase-8/challenge-8";
-
+// import { ChallengeClaseOcho } from "../clase-8/challenge-8";
+import { Main } from "../clase-8-practica/main";
 export const Container = () => {
   return (
     <>
@@ -25,7 +25,8 @@ export const Container = () => {
       {/* <ChallengeSeis /> */}
       {/* <ClaseSeis /> */}
       {/* <ToolboxClaseOcho /> */}
-      <ChallengeClaseOcho />
+      {/* <ChallengeClaseOcho /> */}
+      <Main />
     </>
   );
 };
