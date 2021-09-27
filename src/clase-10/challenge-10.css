@@ -1,0 +1,52 @@
+.contenedor-principal {
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-home {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home,
+.usuarios {
+  width: 100%;
+}
+
+.links, .link-home {
+  width: 200px;
+  color: #f4f4f4;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 25px;
+  border: 2px rgb(39, 39, 39) solid;
+  background-color: grey;
+}
+
+.link-home{
+    background-color: hotpink;
+    margin: 3rem;
+}
+
+.personas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.persona {
+  background-color: rgb(204, 219, 219);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
+  margin: 10px;
+}
