@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sprint-3-Acamica/static/css/main.f1a30c69.chunk.css",
-    "main.js": "/sprint-3-Acamica/static/js/main.60009373.chunk.js",
-    "main.js.map": "/sprint-3-Acamica/static/js/main.60009373.chunk.js.map",
-    "runtime-main.js": "/sprint-3-Acamica/static/js/runtime-main.3b946c66.js",
-    "runtime-main.js.map": "/sprint-3-Acamica/static/js/runtime-main.3b946c66.js.map",
-    "static/js/2.fca028a4.chunk.js": "/sprint-3-Acamica/static/js/2.fca028a4.chunk.js",
-    "static/js/2.fca028a4.chunk.js.map": "/sprint-3-Acamica/static/js/2.fca028a4.chunk.js.map",
-    "static/js/3.8a6da35d.chunk.js": "/sprint-3-Acamica/static/js/3.8a6da35d.chunk.js",
-    "static/js/3.8a6da35d.chunk.js.map": "/sprint-3-Acamica/static/js/3.8a6da35d.chunk.js.map",
+    "main.css": "/sprint-3-Acamica/static/css/main.7ca3f1d7.chunk.css",
+    "main.js": "/sprint-3-Acamica/static/js/main.92612e64.chunk.js",
+    "main.js.map": "/sprint-3-Acamica/static/js/main.92612e64.chunk.js.map",
+    "runtime-main.js": "/sprint-3-Acamica/static/js/runtime-main.017b73f6.js",
+    "runtime-main.js.map": "/sprint-3-Acamica/static/js/runtime-main.017b73f6.js.map",
+    "static/js/2.e05cfec2.chunk.js": "/sprint-3-Acamica/static/js/2.e05cfec2.chunk.js",
+    "static/js/2.e05cfec2.chunk.js.map": "/sprint-3-Acamica/static/js/2.e05cfec2.chunk.js.map",
+    "static/js/3.a39b1af0.chunk.js": "/sprint-3-Acamica/static/js/3.a39b1af0.chunk.js",
+    "static/js/3.a39b1af0.chunk.js.map": "/sprint-3-Acamica/static/js/3.a39b1af0.chunk.js.map",
     "index.html": "/sprint-3-Acamica/index.html",
-    "static/css/main.f1a30c69.chunk.css.map": "/sprint-3-Acamica/static/css/main.f1a30c69.chunk.css.map",
-    "static/js/2.fca028a4.chunk.js.LICENSE.txt": "/sprint-3-Acamica/static/js/2.fca028a4.chunk.js.LICENSE.txt",
+    "static/css/main.7ca3f1d7.chunk.css.map": "/sprint-3-Acamica/static/css/main.7ca3f1d7.chunk.css.map",
+    "static/js/2.e05cfec2.chunk.js.LICENSE.txt": "/sprint-3-Acamica/static/js/2.e05cfec2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/sprint-3-Acamica/static/media/Blanka-Regular.16f6265b.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b946c66.js",
-    "static/js/2.fca028a4.chunk.js",
-    "static/css/main.f1a30c69.chunk.css",
-    "static/js/main.60009373.chunk.js"
+    "static/js/runtime-main.017b73f6.js",
+    "static/js/2.e05cfec2.chunk.js",
+    "static/css/main.7ca3f1d7.chunk.css",
+    "static/js/main.92612e64.chunk.js"
   ]
 }
